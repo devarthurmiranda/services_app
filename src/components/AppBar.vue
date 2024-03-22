@@ -9,6 +9,8 @@
       </li>
     </ul>
   </nav>
+  <div class="space"></div>
+
 </template>
 
 <script>
@@ -47,5 +49,9 @@ export default defineComponent({
   display: flex;
   align-items: center;
   margin-left: 10px;
+}
+
+.space {
+  height: 95px;
 }
 </style>

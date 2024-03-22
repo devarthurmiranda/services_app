@@ -5,6 +5,11 @@
                 <p>© 2024 Arthur Miranda</p>
                 <p>All rights reserved</p>
             </div>
+            <div >
+                <a href="https://github.com/devarthurmiranda">
+                    <img class="icon" src="../assets/github.png" alt="">
+                </a>
+            </div>
         </footer>
     </div>
 </template>
@@ -24,12 +29,16 @@ export default defineComponent({
     bottom: 0;
     width: 100%;
     background-color: #000000;
-    padding: 20px 0;
+    padding: 8px 0;
     text-align: center;
     color: white;
 }
 .copyright {
-    text-decoration: white;
     font-weight: bold;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
 }
 </style>
